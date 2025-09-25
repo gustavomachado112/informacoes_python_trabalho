@@ -10,19 +10,15 @@ def input_data():
 def input_duracao():
     while True:
         try:
-            dur = int(input("Duração da sessão (minutos): "))
-            if dur > 0:
-                return dur
+            duracao = int(input("Duração da sessão (minutos): "))
+            if duracao > 0:
+                return duracao
             else:
                 print("Duração deve ser maior que zero!")
         except:
             print("Digite um número válido.")
-
-
 treino_id = random.randint(10000, 99999)
 corrida_id = random.randint(10000, 99999)
-
-
 data_sessao = input_data()
 duracao_sessao = input_duracao()
 
