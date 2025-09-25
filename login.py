@@ -1,5 +1,4 @@
 import random, re
-
 def input_email():
     while True:
         e = input("Email: ")
@@ -13,9 +12,7 @@ def input_senha():
         if len(s) >= 6:
             return s
         print("Senha curta demais!")
-
-
-user_id = random.randint(10000, 99999)
+uuario_id = random.randint(10000, 99999)
 
 
 print("\n--- Criar login ---")
@@ -24,7 +21,7 @@ senha = input_senha()
 login_id = random.randint(10000, 99999)
 
 print("\n--- IDs Gerados ---")
-print("User ID:", user_id)
+print("User ID:", usuario_id)
 print("Login ID:", login_id)
 print("Email:", email)
 print("Senha:", '*' * len(senha)) 
