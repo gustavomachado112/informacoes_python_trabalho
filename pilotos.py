@@ -8,29 +8,29 @@ def cadastrar_piloto():
         nome = input("Digite o nome do piloto: ")
         if nome.strip(): 
             break
-        print("Nome é obrigatório! Digite novamente.")
+        print("Nome ele e obrigatorio.")
     
     while True:
         nacionalidade = input("Digite a nacionalidade do piloto: ")
         if nacionalidade.strip():  
             break
-        print("Nacionalidade é obrigatória! Digite novamente.")
+        print("a nacionalidade e obrigatorio .")
     while True:
         try:
             vitorias = int(input("Digite o número de vitórias: "))
             break
         except:
-            print("Digite um número válido para vitórias!")
+            print("Digite quantas vitórias.")
     recordes = input("Digite os recordes do piloto: ")
     
     while True:
         try:
-            titulos = int(input("Digite o número de títulos: "))
+            titulos = int(input("Digite o numero de titulos do pilotos: "))
             break
         except:
-            print("Digite um número válido para títulos!")
+            print("Digite zero ou  a quantidade de titulos que o piloto tem")
     
-    print("\n=== INFORMAÇÕES RECEBIDAS ===")
+    print("\n informacoes recebidas com sucesso. ")
     print(f"Piloto ID: {piloto_id}")
     print(f"Nome: {nome}")
     print(f"Nacionalidade: {nacionalidade}")
