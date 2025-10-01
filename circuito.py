@@ -6,13 +6,13 @@ while True:
     nome_do_circuito = input("Nome do circuito: ").strip()
     if nome_do_circuito:
         break
-    print("Nome é obrigatório!")
+    print("Nome e obrigatório!")
 
 while True:
     pais = input("País: ").strip()
     if pais:
         break
-    print("País é obrigatório!")
+    print("País e obrigatório!")
 
 while True:
     try:
@@ -20,9 +20,9 @@ while True:
         if extensao_km > 0:
             break
         else:
-            print("Extensão deve ser maior que zero!")
+            print("Extensão do circuito deve estar mostrada pra gente")
     except:
-        print("Digite um número válido!")
+        print("Digite um numero valido!")
 recordes_do_circuito = input("Recordes do circuito: ").strip()
 
 print("\nCircuito ID:", circuito_id)
