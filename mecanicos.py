@@ -6,12 +6,12 @@ def cadastrar_mecanico():
     nome_do_mecanico = input("Digite o nome do mecânico: ")
   
     while True:
-        especialidade_do_mecanico = input("Digite a especialidade do mecânico: ")
+        especialidade_do_mecanico = input("Digite a especialidade do mecânico na equipe: ")
         if especialidade_do_mecanico.strip(): 
             break
-        print("Especialidade é obrigatória! Digite novamente.")
+        print("ele deve ter uma ocupacao digite qual e a especialidade.")
     
-    print("\n=== INFORMAÇÕES RECEBIDAS ===")
+    print("\n= INFORMAÇÕES RECEBIDAS ")
     print(f"ID do Mecânico: {mecanico_id}")
     print(f"Nome: {nome_do_mecanico}")
     print(f"Especialidade: {especialidade_do_mecanico}")
