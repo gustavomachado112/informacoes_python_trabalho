@@ -1,30 +1,30 @@
 import random
 def cadastrar_penalidade():
-    print("=== CADASTRO DE PENALIDADE ===")
+    print(" CADASTRO DE PENALIDADE ")
     
     penalidade_id = random.randint(10000, 99999)
     piloto_id = random.randint(10000, 99999)
     
     while True:
-        descricao_da_punicao = input("Digite a descrição da punição: ")
+        descricao_da_punicao = input("Digite a descrição do que aconteceu pra ocorrer a punicao: ")
         if descricao_da_punicao.strip():  
             break
-        print("Descrição é obrigatória! Digite novamente.")
+        print("Descrição ela e obrigatoria.")
         
     while True:
         try:
-            pontos_tomados_na_carteira = int(input("Digite os pontos tomados na carteira: "))
+            pontos_tomados_na_carteira = int(input("Digite os pontos que o piloto ira tomar na carteira: "))
             break
         except:
-            print("Digite um número válido para pontos!")
+            print("Digite os pontos pro piloto")
     
     while True:
         try:
-            avisos = int(input("Digite o número de avisos: "))
+            avisos = int(input("Digite o total de aviso que ele recebeu: "))
             break
         except:
-            print("Digite um número válido para avisos!")
-    print("\n=== INFORMAÇÕES RECEBIDAS ===")
+            print("Digite a quantidade que ele recebeu")
+    print("\n informacoes recebidas")
     print(f"Penalidade ID: {penalidade_id}")
     print(f"Piloto ID: {piloto_id}")
     print(f"Descrição da Punicação: {descricao_da_punicao}")
