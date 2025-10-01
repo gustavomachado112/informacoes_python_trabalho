@@ -20,7 +20,7 @@ while True:
     data = input("Data (dd-mm-aaaa): ")
     if data and len(data) == 10:
         break
-    print("Data é obrigatória! Use dd-mm-aaaa")
+    print("Data ela sera obrigatoria. Use dd-mm-aaaa")
 print("\nCorrida ID:", corrida_id)
 print("Nome:", nome)
 print("Local:", local)
