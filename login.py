@@ -4,23 +4,22 @@ def input_email():
         e = input("Email: ")
         if re.match(r"[^@]+@[^@]+\.[^@]+", e):
             return e
-        print("Email inválido!")
+        print("Email invalido!")
 
 def input_senha():
     while True:
-        s = input("Senha (mín 6 chars): ")
+        s = input("Senha (minima 6 letras): ")
         if len(s) >= 6:
             return s
         print("Senha curta demais!")
-uuario_id = random.randint(10000, 99999)
+usuario_id = random.randint(10000, 99999)
 
-
-print("\n--- Criar login ---")
+print("\n Criar login ")
 email = input_email()
 senha = input_senha()
 login_id = random.randint(10000, 99999)
 
-print("\n--- IDs Gerados ---")
+print("\n- ID Gerado ")
 print("User ID:", usuario_id)
 print("Login ID:", login_id)
 print("Email:", email)
