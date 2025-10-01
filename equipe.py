@@ -11,7 +11,7 @@ def cadastrar_equipe():
         if len(historia_da_equipe) >= 20:
             break
         else:
-            print("A história precisa ter pelo menos 20 caracteres. Tente novamente.")
+            print("A sua historia de equipe deve ter um minimo de letras , tenha uma biografia(historia) .")
     
 
     patrocinador_id = str(random.randint(100000, 999999))
