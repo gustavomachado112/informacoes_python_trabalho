@@ -11,10 +11,10 @@ while True:
         if posicao_final >= 1:
             break
         else:
-            print("Posição deve ser 1 ou maior!")
+            print("Posição deve ser entre o vigesimo e o primeiro")
     except:
-        print("Digite um número válido!")
-print("\n=== INFORMAÇÕES ===")
+        print("Digite uma posicao valida")
+print("\n INFORMAÇÕES ")
 print("Participacao ID:", participacao_id)
 print("Piloto ID:", piloto_id)
 print("Corrida ID:", corrida_id)
