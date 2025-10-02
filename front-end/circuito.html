@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Circuito</title>
+    <link rel="stylesheet" href="circuito.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Circuito</h1>
+        <form>
+            <div class="campo">
+                <label>Nome do Circuito:</label>
+                <input type="text" name="nome" required>
+            </div>
+            
+            <div class="campo">
+                <label>País:</label>
+                <input type="text" name="pais" required>
+            </div>
+            
+            <div class="campo">
+                <label>Extensão (km):</label>
+                <input type="number" name="extensao" step="0.001" required>
+            </div>
+            
+            <div class="campo">
+                <label>Recordes da Pista:</label>
+                <input type="text" name="recordes" required>
+            </div>
+            
+            <button type="submit">Salvar Circuito</button>
+        </form>
+    </div>
+</body>
+</html>
