@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipes</title>
+    <link rel="stylesheet" href="equipes.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Equipes</h1>
+        <form>
+            <div class="campo">
+                <label>Nome da Equipe:</label>
+                <input type="text" name="nome" required>
+            </div>
+            
+            <div class="campo">
+                <label>País:</label>
+                <input type="text" name="pais" required>
+            </div>
+            
+            <div class="campo">
+                <label>História da Equipe:</label>
+                <textarea name="historia" rows="6" placeholder="Escreva a história da equipe..."></textarea>
+            </div>
+          
+            <div class="campo">
+                <label>Ano do Carro:</label>
+                <input type="number" name="ano_carro" placeholder="Ex: 2024">
+            </div>
+            
+            <div class="campo">
+                <label>Modelo do Carro:</label>
+                <input type="text" name="modelo_carro" placeholder="Ex: Ferrari SF-24">
+            </div>
+            
+            <button type="submit">Salvar Equipe</button>
+        </form>
+    </div>
+</body>
+</html>
