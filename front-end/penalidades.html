@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penalidades</title>
+    <link rel="stylesheet" href="penalidades.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro de Penalidades</h1>
+        <form>
+            <div class="campo">
+                <label>Descrição da Punição:</label>
+                <textarea name="descricao" rows="4" placeholder="Descreva a punição aplicada..." required></textarea>
+            </div>
+            
+            <div class="campo">
+                <label>Pontos Tomados na Carteira:</label>
+                <input type="number" name="pontos" required>
+            </div>
+            
+            <div class="campo">
+                <label>Avisos:</label>
+                <input type="text" name="avisos" required>
+            </div>
+            
+            <button type="submit">Salvar Penalidade</button>
+        </form>
+    </div>
+</body>
+</html>
