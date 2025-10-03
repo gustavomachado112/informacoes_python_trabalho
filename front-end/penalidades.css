@@ -3,6 +3,7 @@ body {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
+    background-color: #f8f9fa;
 }
 
 h1 {
@@ -36,7 +37,7 @@ textarea {
 button {
     width: 100%;
     padding: 12px;
-    background: #6c757d;
+    background: #6610f2;
     color: white;
     border: none;
     border-radius: 4px;
@@ -45,5 +46,5 @@ button {
 }
 
 button:hover {
-    background: #5a6268;
+    background: #520dc2;
 }
