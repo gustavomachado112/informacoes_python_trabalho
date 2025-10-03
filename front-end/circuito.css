@@ -3,6 +3,7 @@ body {
     max-width: 600px;
     margin: 50px auto;
     padding: 20px;
+    background-color: #f8f9fa;
 }
 
 h1 {
@@ -31,15 +32,14 @@ input {
 button {
     width: 100%;
     padding: 12px;
-    background: #ffc107;
-    color: #212529;
+    background: #6610f2;
+    color: white;
     border: none;
     border-radius: 4px;
     font-size: 16px;
     cursor: pointer;
-    font-weight: bold;
 }
 
 button:hover {
-    background: #e0a800;
+    background: #520dc2;
 }
