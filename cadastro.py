@@ -15,17 +15,17 @@ def input_data():
             return data
         print("Formato invalido! Use dd-mm-aaaa.")
 
-def input_tel():
+def input_telefone():
     while True:
-        tel = input("Telefone (DDD+Numero, ex: 41999999999): ")
-        if tel.isdigit() and len(tel) >= 10:
-            return tel
+        telefone = input("Telefone (DDD+Numero, ex: 41999999999): ")
+        if telefone.isdigit() and len(telefone) >= 10:
+            return telefone
         print(" Esse telefone  esta invalido! Digite DDD + numero.")
 
 dados = {
     "Nome": input("Nome: "),
     "Data de Nascimento": input_data(),
-    "Telefone": input_tel(),
+    "Telefone": input_telefone(),
     "Endereço(rua)": input("Endereço: "),
     "CPF": input_cpf()
 }
