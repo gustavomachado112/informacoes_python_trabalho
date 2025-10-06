@@ -4,7 +4,7 @@ import string
 def cadastrar_patrocinador():
     print(" CADASTRO DE PATROCINADOR ")
      
-    patrocinador_Id = ''.join(random.choices(string.ascii_uppercase + string.digits, k=6))
+    patrocinador_Id = random.randint(10000, 99999)
     
     nome_do_patrocinador = input("Digite o nome do patrocinador: ")
     setor_do_patrocinador = input("Digite o setor do patrocinador: ")
@@ -12,7 +12,7 @@ def cadastrar_patrocinador():
     valor_de_patrocinio = input("Digite o valor do patrocínio: ")
     
     
-    print("\n INFORMAÇÕES RECEBIDAS ")
+    print("\n INFORMACOES RECEBIDAS ")
     print(f"ID Gerado: {patrocinador_Id}")
     print(f"Nome: {nome_do_patrocinador}")
     print(f"Setor: {setor_do_patrocinador}")
@@ -26,3 +26,4 @@ def cadastrar_patrocinador():
         'anos_de_patrocinio': anos_de_patrocinio,
         'valor_de_patrocinio': valor_de_patrocinio
     }
+cadastrar_patrocinador()
