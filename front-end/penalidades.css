@@ -49,7 +49,6 @@ body {
     transform: translateY(-2px);
 }
 
-
 .container {
     max-width: 600px;
     margin: 50px auto;
@@ -72,12 +71,17 @@ label {
     font-weight: bold;
 }
 
-input {
+input, textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 100px;
 }
 
 button {
